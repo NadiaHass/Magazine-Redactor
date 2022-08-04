@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "332105045738",
+    "project_id": "magazine-d2a80",
+    "storage_bucket": "magazine-d2a80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332105045738:android:d770b8834addc48004a993",
+        "android_client_info": {
+          "package_name": "com.nadiahassouni.magazine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332105045738-2eues9b6u6hrre8nb8ab057tp8ojvn8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArilo7EQZ2C3wfqXixty6xiFFQHPS4XqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332105045738-2eues9b6u6hrre8nb8ab057tp8ojvn8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332105045738:android:d08964d495b69b8d04a993",
+        "android_client_info": {
+          "package_name": "com.nadiahassouni.magazinewriter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332105045738-2eues9b6u6hrre8nb8ab057tp8ojvn8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArilo7EQZ2C3wfqXixty6xiFFQHPS4XqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332105045738-2eues9b6u6hrre8nb8ab057tp8ojvn8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

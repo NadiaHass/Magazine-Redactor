@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addStoryFragment"
+            app:destination="@id/addStoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addArticleFragment"
+            app:destination="@id/addArticleFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addVideoFragment"
+            app:destination="@id/addVideoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_storyFragment"
+            app:destination="@id/storyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addStoryFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.AddStoryFragment"
+        android:label="fragment_add_story"
+        tools:layout="@layout/fragment_add_story" />
+    <fragment
+        android:id="@+id/addArticleFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.AddArticleFragment"
+        android:label="fragment_add_article"
+        tools:layout="@layout/fragment_add_article" />
+    <fragment
+        android:id="@+id/addVideoFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.AddVideoFragment"
+        android:label="fragment_add_video"
+        tools:layout="@layout/fragment_add_video" />
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.ArticleFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" >
+        <action
+            android:id="@+id/action_articleFragment_to_updateArticleFragment"
+            app:destination="@id/updateArticleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story" >
+        <action
+            android:id="@+id/action_storyFragment_to_updateStoryFragment"
+            app:destination="@id/updateStoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateStoryFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.UpdateStoryFragment"
+        android:label="fragment_update_story"
+        tools:layout="@layout/fragment_update_story" />
+    <fragment
+        android:id="@+id/updateArticleFragment"
+        android:name="com.nadiahassouni.magazinewriter.ui.main.UpdateArticleFragment"
+        android:label="fragment_update_article"
+        tools:layout="@layout/fragment_update_article" />
+</navigation>
